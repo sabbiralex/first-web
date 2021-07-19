@@ -75,3 +75,6 @@ p{
     border-left: 7px solid;
     border-radius: 5px;
 }
+footer p{
+    text-align: center;
+}
