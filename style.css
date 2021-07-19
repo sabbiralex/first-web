@@ -61,6 +61,7 @@ p{
     border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
     border-left: 7px solid;
+    border-radius: 5px;
 }
 #experiences-item-2{
     width: 40%; 
@@ -72,4 +73,5 @@ p{
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
     border-left: 7px solid;
+    border-radius: 5px;
 }
