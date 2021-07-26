@@ -43,6 +43,20 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 }
+.underline{
+    position: relative;
+    display: inline-block;
+}
+.underline::after{
+    content: "";
+    height: 2px;
+    width: 65%;
+    position: absolute;
+    background-color: tomato;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-100px);
+}
 .third-section{
     margin-bottom: 50px; 
     background-image: url(images/exp-bg.png);
